@@ -1,0 +1,11 @@
+Airport_Code,City,Region,Country
+ATL,Atlanta,Southeast,USA
+JFK,New York,Northeast,USA
+LAX,Los Angeles,West,USA
+ORD,Chicago,Midwest,USA
+LHR,London,Europe,UK
+CDG,Paris,Europe,France
+NRT,Tokyo,Asia,Japan
+MEX,Mexico City,Latin America,Mexico
+AMS,Amsterdam,Europe,Netherlands
+ICN,Seoul,Asia,South Korea
