@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karma Gurung | Payroll Audit Project</title>
+<style>
+  :root {
+    --teal: #C6DADA;
+    --teal-dark: #6a9494;
+    --text: #222222;
+    --muted: #666666;
+    --bg: #ffffff;
+    --card-bg: #fafafa;
+    --border: #e2e2e2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    margin: 0;
+    padding: 0;
+    line-height: 1.55;
+  }
+  header {
+    background: var(--teal);
+    padding: 40px 20px 32px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+  }
+  header p {
+    margin: 0;
+    color: #333;
+    font-size: 15px;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 20px 60px;
+  }
+  .project {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 26px 28px;
+  }
+  .project h2 {
+    margin: 0 0 6px;
+    font-size: 20px;
+  }
+  .project .tag {
+    display: inline-block;
+    background: var(--teal);
+    color: #222;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .project p {
+    margin: 8px 0;
+    font-size: 14.5px;
+    color: #333;
+  }
+  .project ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  .project ul li { margin-bottom: 5px; }
+  .skills {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .skills strong { color: #333; }
+  .downloads {
+    margin-top: 16px;
+  }
+  .downloads a {
+    display: inline-block;
+    background: var(--teal-dark);
+    color: #fff;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: bold;
+    padding: 9px 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 6px;
+  }
+  .downloads a:hover { background: #557d7d; }
+  .note {
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 16px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 13.5px;
+    color: var(--muted);
+    margin-top: 26px;
+  }
+  .contact a { color: var(--teal-dark); }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 12.5px;
+    padding: 24px 20px 20px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Payroll Audit &amp; Reconciliation Project</h1>
+  <p>Karma Gurung — a self-directed practice project modeled on weekly payroll auditing, reconciliation, and off-cycle payment review.</p>
+</header>
+
+<main>
+
+  <div class="project">
+    <span class="tag">Excel &middot; Payroll Auditing</span>
+    <h2>Payroll Audit &amp; Reconciliation Project</h2>
+    <p>Built to practice the core responsibilities of a payroll audit workflow: reconciling recorded gross pay against hours and rate, flagging possible duplicate payments, and reviewing off-cycle payments such as reversals, overpayment corrections, and duplicate employee merges.</p>
+    <ul>
+      <li>Payroll Register — 246 simulated pay records across 4 weekly pay periods and 5 departments, with intentionally seeded errors (duplicate payments, gross pay discrepancies, off-cycle entries) for the audit to catch</li>
+      <li>Audit &amp; Reconciliation — live formulas recalculate gross pay from hours &times; rate, flag variances, detect duplicate employee/pay-period entries, and assign an audit status to every record</li>
+      <li>Weekly Audit Summary — rollup reporting by pay period and flag type, with a summary chart</li>
+      <li>Findings — a written audit summary explaining what was caught and a recommendation based on the results</li>
+    </ul>
+    <div class="skills"><strong>Skills:</strong> Payroll auditing &amp; reconciliation logic, duplicate-payment detection, Excel formulas (SUMIFS, COUNTIFS, IF, ROUND), conditional formatting, written audit reporting</div>
+    <div class="downloads">
+      <a href="Payroll_Audit_Reconciliation_Project.xlsx" download>Download Workbook (.xlsx)</a>
+    </div>
+    <p class="note">This is a self-directed practice project built to demonstrate payroll auditing skills — not output from a paid role or employer data. Data is simulated for practice purposes only.</p>
+  </div>
+
+  <p class="contact">See more of my work at my full portfolio: <a href="https://kgurungdata.github.io/projects-portfolio/">kgurungdata.github.io/projects-portfolio</a></p>
+
+</main>
+
+<footer>Karma Gurung</footer>
+
+</body>
+</html>
